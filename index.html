@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="load()">
+    <h1>Number Guessing game</h1>
+    
+        <div class="parent">
+            
+          <div class="child1">
+              <button id="gen" onclick="GenRad()">Generate Random Number</button>
+          </div>
+          <div class="child2">
+              <div id="empty" class="empty">X</div>
+              <div id="hide">
+              <button onclick="typo(0)">0</button>
+              <button onclick="typo(1)">1</button>
+              <button onclick="typo(2)">2</button>
+              <button onclick="typo(3)">3</button>
+              <button onclick="typo(4)">4</button>
+              <button onclick="typo(5)">5</button>
+              <button onclick="typo(6)">6</button>
+              <button onclick="typo(7)">7</button>
+              <button onclick="typo(8)">8</button>
+              <button onclick="typo(9)">9</button>
+              <button onclick="submitt()">Submit</button>
+
+              </div>
+              
+          </div>
+        
+    </div>
+    <button class="reveal" onclick="reveal()">Reveal</button>
+    <div id="any"></div>
+    <script src="script.js"></script>
+</body>
+</html>

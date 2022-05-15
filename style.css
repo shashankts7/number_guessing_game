@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    background-color: #EEF3D2;
+}
+
+.parent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.child1
+{
+    width:35%;
+    height: 40vh;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.child2
+{
+    width:60%;
+    height: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.button
+{
+    padding: 10px;
+    
+}
+.child2 button
+{
+    height: fit-content;
+    margin-top: 150px;
+}
+.empty
+{
+    width: 20vw;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size:1rem;
+
+}
+.reveal
+{
+    margin-top: 20px;
+    margin-left: 10vw;
+    width: 80vw;
+    padding: 10px;
+    
+}
+#any
+{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.child1 button{
+    height: fit-content;
+    margin-top: 15vh;
+    padding: 10px;
+}
