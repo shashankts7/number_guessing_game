@@ -7,7 +7,7 @@ h1{
     padding: 0px;
     margin:0px;
     box-sizing: border-box;
-    background-color: #EEF3D2;
+    background-color: #edd999;
 }
 
 .parent
@@ -40,12 +40,14 @@ h1{
 .button
 {
     padding: 10px;
+    background-color: rgb(150, 226, 245);
     
 }
 .child2 button
 {
     height: fit-content;
     margin-top: 150px;
+    background-color: rgb(90, 217, 255);
 }
 .empty
 {
@@ -54,6 +56,7 @@ h1{
     padding: 5px;
     text-align: center;
     font-size:1rem;
+    background-color: rgb(90, 217, 255);
 
 }
 .reveal
@@ -62,6 +65,7 @@ h1{
     margin-left: 10vw;
     width: 80vw;
     padding: 10px;
+    background-color: rgb(90, 217, 255);
     
 }
 #any
@@ -74,4 +78,8 @@ h1{
     height: fit-content;
     margin-top: 15vh;
     padding: 10px;
+}
+#gen
+{
+    background-color: rgb(90, 217, 255);
 }
